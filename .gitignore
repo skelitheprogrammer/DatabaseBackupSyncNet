@@ -1,0 +1,4 @@
+.idea
+obj
+Backup.Client/bin/Debug/net9.0
+Backup.Abstractions/bin/Debug/net9.0

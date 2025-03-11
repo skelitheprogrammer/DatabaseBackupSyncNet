@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Backup.API/1.0.0": {
+        "dependencies": {
+          "Backup.Abstractions": "1.0.0",
+          "CliWrap": "3.8.2"
+        },
+        "runtime": {
+          "Backup.API.dll": {}
+        }
+      },
+      "CliWrap/3.8.2": {
+        "runtime": {
+          "lib/net9.0/CliWrap.dll": {
+            "assemblyVersion": "3.8.2.0",
+            "fileVersion": "3.8.2.0"
+          }
+        }
+      },
+      "Backup.Abstractions/1.0.0": {
+        "runtime": {
+          "Backup.Abstractions.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Backup.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CliWrap/3.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FTfHUYVt69M0wzcCfQQok3JnmaPQzrqKIB8xBiyTwzocGmG7N3MpDbMC9+qeeAvPclRgUDj3EpMvXwJBwY4/mw==",
+      "path": "cliwrap/3.8.2",
+      "hashPath": "cliwrap.3.8.2.nupkg.sha512"
+    },
+    "Backup.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
